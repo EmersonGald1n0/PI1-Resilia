@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: #20192B;
     color: #fff;
     list-style: none;
@@ -16,14 +17,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #20192B;
-  
 }
 
 .menu li {
   font-family: 'Play', sans-serif;
   font-size: 1.2em;
   display: inline;
+  letter-spacing: 2px; /* Espaçamento entre as letras */
 }
 
 #teste {
@@ -59,4 +59,27 @@
   justify-content: center;
   border-radius: 50px;
   box-shadow: 1px 1px 20px 1px #eb1958;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.redes img {
+  width: 20px;
+  height: 20px;
+}
+
+.redes img:hover {
+  border: 1px solid #eb1958;
+  border-radius: 50px;
 }
