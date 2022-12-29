@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #181320;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
+}
+
+.menu {
+  width: 100%;
+  height: 100px; 
+  margin-bottom: 5vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eb1958;
+  box-shadow: 1px 1px 20px 1px #eb1958;
+}
+
+.menu li {
+  font-size: 1.2em;
+  display: inline;
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+#referencia {
+  color: #eb1958;
+}
+
+.menu a {
+  color: #fff;
+  padding: 0 50px;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  color: #eb1958;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.redes {  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.redes img {
+  width: 45px;
+  height: 45px;
+
+}
+
+.redes li {
+  margin: 0 10px;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+label, input, textarea {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.botao button {
+  margin-top: 3vh;
+  background-color: #eb1958;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 300px;
+  padding: 1vh 1vw;
+  font-weight: bold;
+  font-size: 1.5vh;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 1px 1px 10px 1px #eb1958;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+label {
+  margin-top: 1vh;
+}
+
+input {
+  margin-top: 1vh;
+  border-radius: 300px;
+  padding: 1vh 1vw;
+  border: #eb1958 1px solid;
+  background-color: #111111;
+}
+
+textarea {
+  margin-top: 1vh;
+  border: #eb1958 1px solid;
+  background-color: #111111;
+  resize: none;
+}
+
