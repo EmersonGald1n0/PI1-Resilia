@@ -4,11 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #181320;
   color: #fff;
   list-style: none;
   text-decoration: none;
   font-family: 'Play', sans-serif;
+}
+
+body {
+  background-color: #181320;
 }
 
 .menu {
@@ -24,12 +27,16 @@
 
 .menu li {
   font-size: 1.2em;
+  font-weight: 550;
   display: inline;
   letter-spacing: 2px; /* Espaçamento entre as letras */
 }
 
 #referencia {
-  color: #eb1958;
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu a {
@@ -39,7 +46,10 @@
 }
 
 .menu a:hover {
-  color: #eb1958;
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .secao1 {
@@ -51,13 +61,40 @@
 }
 
 #descricao {
-  width: 35%;
-  height: 100%;
+  width: 500px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-right: 50px;
 }
+
+.secao1 p {
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.secao1 h1 {
+  font-weight: bold;
+  padding: 5px;
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fiap {
+  font-size: 1.2em;
+  color: #eb1958;
+  font-weight: bold;
+}
+.res {
+  font-size: 1.2em;
+  color: #dada00;
+  font-weight: bold;
+}
+
 
 #foto img {
   width: 400px;
@@ -68,7 +105,7 @@
 }
 
 #foto img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
@@ -76,12 +113,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 53px;
+  margin-top: 63px;
 }
 
 .redes img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 
@@ -95,8 +132,7 @@
 
 .redes li {
   margin: 0 10px;
+  
 }
-
-/* -------------------------------------- */
 
 
