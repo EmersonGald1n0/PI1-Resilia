@@ -4,14 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
   list-style: none;
   text-decoration: none;
-  font-family: 'Play', sans-serif;
 }
 
 body {
   background-color: #181320;
+  color: #fff;
+  font-family: 'Play', sans-serif;
 }
 
 .menu {
@@ -27,7 +27,6 @@ body {
 
 .menu li {
   font-size: 1.2em;
-  font-weight: 550;
   display: inline;
   letter-spacing: 2px; /* Espaçamento entre as letras */
 }
@@ -42,7 +41,6 @@ body {
 .menu a {
   color: #fff;
   padding: 0 50px;
-  transition: 0.5s;
 }
 
 .menu a:hover {
@@ -50,6 +48,14 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.welcome h1{
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+  padding: 7px;
 }
 
 .secao1 {
