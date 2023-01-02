@@ -126,7 +126,7 @@ body {
   padding: 30px 35px;
   background-color: #2a243a;
   border-radius: 20px;
-  box-shadow: 1px 1px 20px 1px #eb1958;
+  box-shadow: 0px 5px 50px #00000096;
 }
 
 .textfield {
@@ -171,7 +171,7 @@ body {
   font-weight: bold;
   background-color: #eb1958;
   cursor: pointer;
-  box-shadow: 0px 10px 25px #0000006e;
+  box-shadow: 0px 10px 25px #0000007a;
   background: linear-gradient(90deg, #eb1958, #dada00);
   background-clip: text;
 }

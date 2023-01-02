@@ -14,8 +14,114 @@ body {
   font-family: 'Play', sans-serif;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
+::-webkit-scrollbar {
+  width: 5px;
 }
+
+::-webkit-scrollbar-thumb {
+  background: #b39aa1;
+  border-radius: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eb1958;
+  box-shadow: 1px 1px 20px 1px #eb1958;
+}
+
+.menu li {
+  font-size: 1.2em;
+  display: inline;
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+#referencia {
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu a {
+  color: #fff;
+  padding: 0 50px;
+}
+
+.menu a:hover {
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-info {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 10px 50px #0000007a;
+  text-align: center;
+}
+
+.hobbies-info h1 {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+}
+
+#foto-perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.foto-familia {
+  width: 280px;
+  height: 300px;
+  border-radius: 25%;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+#foto-estadio {
+  width: 450px;
+  height: 300px;
+  border-radius: 25%;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+#foto-cs {
+  width: 600px;
+  height: 300px;
+  border-radius: 25%;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+#foto-bb {
+  width: 400px;
+  height: 300px;
+  border-radius: 25%;
+}
+
+
+
+/* .left-info h1 {
+  text-align: center;
+} */
