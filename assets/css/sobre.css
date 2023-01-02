@@ -76,10 +76,25 @@ body {
   text-align: center;
 }
 
-.hobbies-info h1 {
+#title {
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 50px;
-  display: flex;
-  text-align: center;
+}
+
+.card-info h1 {
+  background: linear-gradient(90deg, #eb1958, #dada00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+
+.card-info p {
+  margin: 20px 0;
+  font-size: 1.1em;
 }
 
 #foto-perfil {
@@ -88,36 +103,48 @@ body {
   border-radius: 50%;
   margin-top: 20px;
   transition: 0.5s;
+  box-shadow: #0000007a 0px 10px 50px;
 }
 
 .foto-familia {
-  width: 280px;
+  width: 350px;
   height: 300px;
-  border-radius: 25%;
+  border-radius: 25px;
   margin-top: 20px;
   transition: 0.5s;
+  box-shadow: #0000007a 0px 10px 50px;
 }
 
 #foto-estadio {
   width: 450px;
   height: 300px;
-  border-radius: 25%;
+  border-radius: 25px;
   margin-top: 20px;
   transition: 0.5s;
+  box-shadow: #0000007a 0px 10px 50px;
 }
 
 #foto-cs {
   width: 600px;
   height: 300px;
-  border-radius: 25%;
+  border-radius: 10px;
   margin-top: 20px;
   transition: 0.5s;
+  box-shadow: #0000007a 0px 10px 50px;
 }
 
 #foto-bb {
   width: 400px;
   height: 300px;
-  border-radius: 25%;
+  border-radius: 10px;
+  box-shadow: #0000007a 0px 10px 50px;
+}
+
+#foto-rio {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: #0000007a 0px 10px 50px;
 }
 
 
