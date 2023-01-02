@@ -106,7 +106,7 @@ body {
   width: 400px;
   height: 300px;
   border-radius: 50px;
-  box-shadow: 1px 1px 20px 1px #eb1958;
+  box-shadow: 0px 5px 50px #00000096;
   transition: 0.5s;
 }
 
